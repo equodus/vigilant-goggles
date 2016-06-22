@@ -1,0 +1,47 @@
+<html>
+<head>
+  <style>
+  
+  .bar {  height:10%; width:100%;
+  background-color:grey;
+  color: white;
+  }
+  
+  #navcontainer { height:5%; width:100%;
+  background-color: black;
+  }
+  
+  #side { height: 70%; width: 15%;
+  background-color: grey;
+        }
+  
+  #main { height:70%; width:75%;
+  background-color:black;
+  color:white;
+  float:right;
+  }
+  
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <header>This is the header</header>
+  </div>
+  <div id="navcontainer">
+    <nav>
+    </nav>
+  </div>
+  <div id="side">
+  </div>
+  <div>
+    <div id= "main">
+      <p>Main content goes here</p>
+    </div>
+  </div>
+  <div class="bar">
+    <footer>
+      <p>This is the footer</p>
+    </footer>
+  </div>
+</body>
+</html>
